@@ -23,7 +23,7 @@ void setup() {
     if(client.connected()){
       Serial.println();
       Serial.println("연결 성공");
-      client.print("9");
+      client.print("19");
       break;
     }
     else
